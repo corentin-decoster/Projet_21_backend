@@ -1,0 +1,3 @@
+### Read all scores : GET /score
+GET http://localhost:3000/scores
+
