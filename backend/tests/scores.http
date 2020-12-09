@@ -1,3 +1,11 @@
-### Read all scores : GET /score
+### Read all scores : GET /scores
 GET http://localhost:3000/scores
 
+
+### Send a new score : POST /scores
+POST http://localhost:3000/scores
+Content-Type: application/json
+
+{
+    "content":5
+}
